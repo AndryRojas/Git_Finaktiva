@@ -1,0 +1,24 @@
+﻿@model Finaktiva_AndryRojas.Models.Municipio
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<div>
+    <h4>Municipio</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CodMunicipio }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
