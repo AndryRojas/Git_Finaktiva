@@ -14,6 +14,7 @@ namespace Finaktiva_AndryRojas.Models
         public int CodRegion{ get; set; }
         [Required]
         [StringLength(50)]
-        public string Nombre { get; set; }
+        public string Nombre { get; set; }       
+        public int CodMunicipioId { get; set; }                
     }
 }

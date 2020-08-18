@@ -16,5 +16,7 @@ namespace Finaktiva_AndryRojas.Models
         [Required]
         [StringLength(50)]
         public string Nombre { get; set; }
+        public bool Estado { get; set; }
+        public List<Region> Regiones { get; set; }
     }
 }
